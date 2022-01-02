@@ -1,34 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Email-Provider
 
-## Getting Started
+This is the repo for Client side of the project. 
 
-First, run the development server:
+## Project Setup
+- Clone repo
+- You must have node and npm install.
+- Install node packages using npm install
+- Run the frontend using command: *npm run dev*
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Project Structure & Details
+- App is built on Nextjs using create-next-app.
+- Folder structure consists of Pages, Components, Styles.
+- Pages/index is our Homepage. I have implemented a simple form using Formik on the homepage.
+- I have also used YUP for schema validation for form inputs.
+- Components consists of reuseable components which can be utilized throuhout the workspace. 
+- Styles includes global css file and css module files for different components and pages.
+- I have created a Stats page which displays the information about the Email Providers.
+- I used Axios for consuming APIs.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## End Notes
+- I barely completed the exercise in the given time. It took me more time on building the backend.
+- Due to time limit I wasn't able complete the frontend and polish it. My focus was to complete functionality first.
+- It was my first Nextjs project so I needed to go through documentation to setup and grasp key concepts.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If given more time other than completing the exercise, 1) I would have created models and migration for the backend. 2) Would improve the UI and UX for the client side. 3) Would have used Nextjs concepts like pre rendering. 4) Would have used (Nextjs added support for) different styling libraries or pre-processors. 
